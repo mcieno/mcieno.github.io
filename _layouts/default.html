@@ -8,7 +8,7 @@
     <link rel="preload" type="text/css" href="{{ site.baseurl }}/assets/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" /></noscript>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    {% if site.ensure_ssl %}<link rel="canonical" href="{{ site.ensure_ssl }}{{ page.url }}" />{% else %}<link rel="canonical" href="{{ site.url }}{{ page.url }}" />{% endif %}
+    {% if site.enforce_ssl %}<link rel="canonical" href="{{ site.enforce_ssl }}{{ page.url }}" />{% else %}<link rel="canonical" href="{{ site.url }}{{ page.url }}" />{% endif %}
 
     <meta name="theme-color" content="#000000">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/favicon-32x32.png">
