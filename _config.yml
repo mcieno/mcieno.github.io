@@ -4,8 +4,7 @@ description: CloudOps and security
 avatar: https://avatars.githubusercontent.com/u/30049418
 
 # Your website URL used for sitemap.xml and your RSS feed
-url: http://mcieno.github.io
-enforce_ssl: https://mcieno.github.io
+url: https://mcieno.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
